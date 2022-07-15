@@ -60,8 +60,8 @@ class Security {
         this.button3.mousePressed(() => {
             if(system.authenticate(accessCode3,this.access3.value())){
           
-                //this.button3.hide();
-                 //this.access3.hide();
+                this.button3.hide();
+                 this.access3.hide();
 
                 // this.button3.hide;
                 // this.access3.hide;
@@ -69,8 +69,8 @@ class Security {
                 //this.hide();
                 // this.hide();
 
-                this.button3.hidden();
-                 this.access3.hidden();
+                //this.button3.hidden();
+                 //this.access3.hidden();
                 
                 score++;
             }
